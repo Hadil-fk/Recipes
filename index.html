@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recette</title>
+    <link rel="icon" type="png" href="">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\media.css">
+    <link rel="stylesheet" href="css\button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="JS/script.js" defer></script>
+    <script type="text/javascript" src="JS/validation.js" defer></script>
+    <script type="text/javascript" src="JS/signin.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" name="" id="chk1">
+                <div class="logo">
+                    <img src="images/chef.png" alt=""> <h1>Recipes</h1>
+                </div>
+                <div class="searchbox">
+                    <form action="">
+                        <input type="text" name="search" id="srch" placeholder="Search">
+                        <button type="submit"> <i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#add-recipe">Add Recipe</a></li>
+                        <li><a href="#explore-recipes">Recipe</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        
+                        <li><button class="btn-brun-reverse" id="login">Login</button></li>
+                        <li><button class="btn-brun" id="signup">SignUp</button></li>
+                    </ul>
+                    <label for="chk1" class="menu">
+                        <i id="tire" class="fa fa-bars"></i>
+                    </label>
+        </nav>
+    </header>
+    <!-- banner section start -->
+    <section id="home">
+      <div class="banner_section">
+          <div class="background_img"></div>
+          <div class="content">
+              <h3 class="banner_titel">Are you Hungry?</h3>
+              <h1 class="banner-text">Don't Wait !! </h1>
+              <h3 class="banner_titel">Let's start <span id="cook">Cooking</span> now</h3>
+              <button class="btn-brun" id="explore_btn"> Explore Recipes</button>
+          </div>
+          <div class="image-container">
+              <div class="banner_img">
+                  <img src="images\log.png" alt="salade" id="imgA">
+              </div>
+              <div class="circle-container">
+                  <div class="icons">
+                      <h4 id="s">🥗</h4>
+                      <h4 id="e">🍳</h4>
+                      <h4 id="c">🍋 </h4>
+                      <h4 id="b">🍌</h4>
+                      <h4 id="t">🍇</h4>
+                      <h4 id="p">🥔</h4>
+                      <h4 id="j">🥕</h4>
+                      <h4 id="k">🥦</h4>
+          
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- banner section end -->
+
+
+  <!-- share section start  -->
+  <section id="add-recipe">
+    <div class="share_section">
+        <div class="share_container">
+            <div class="share_content">
+                <div class="share_img">
+                    <div class="share_image"><img src="images\search.png" alt="search" >  </div>
+                </div>
+                <div class="share_text_content">
+                    <h3 class="share_title">Share your <span id="cook">Recipes</span></h3>
+                    <p class="share_text">Your Kitchen, Your Rules – Share What You Cook!👩‍🍳</p>
+                    <button type="submit" class="btn-brun" id="add_btn" onclick="">Add Recipe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+     <!-- explore section start -->
+  
+   <section id="explore-recipes">
+      <div class="explore_section">
+          <div class="container">
+              <h1 class="explore_title">Explore Recipes</h1>
+              <div class="recipe-grid">
+                  <!-- Recipe 1 -->
+                  <div class="recipe-card">
+                  <a href="#" class="recipe-title">
+                      <div class="recipe-img">
+                          <img src="images/pizza.png" alt="Pizza Napoletana">
+                      </div>
+                      <div class="recipe-content">Pizza Napoletana
+                      </div>
+                    </a>
+                  </div>
+                  <div class="recipe-card">
+                  <a href="#" class="recipe-title">
+                      <div class="recipe-img">
+                        <img src="images/lasagne.png" alt="Lasagnes bolognaise">
+                      </div>
+                      <div class="recipe-content">Lasagnes bolognaise
+                      </div>
+                      </a>
+                    </div>
+                    
+                    <!-- Recipe 3 -->
+                    <div class="recipe-card">
+                    <a href="#" class="recipe-title">
+                      <div class="recipe-img">
+                        <img src="images/spaghetti.png" alt="Spaghetti">
+                      </div>
+                      <div class="recipe-content">Spaghetti
+                      </div>
+                      </a>
+                    </div>
+                    
+                    <!-- Recipe 4 -->
+                    <div class="recipe-card">
+                    <a href="#" class="recipe-title">
+                      <div class="recipe-img">
+                        <img src="images/quiche.png" alt="Tuna Quiche">
+                      </div>
+                      <div class="recipe-content">Tuna Quiche
+                      </div>
+                      </a>
+                    </div>
+                    
+                    <!-- Recipe 5 -->
+                    <div class="recipe-card">
+                    <a href="#" class="recipe-title">
+                      <div class="recipe-img">
+                        <img src="images/gratinp.png" alt="Dauphinois Gratin">
+                      </div>
+                      <div class="recipe-content"> Dauphinois Gratin
+                      </div>
+                      </a>
+                    </div>
+                    
+                    <!-- Recipe 6 -->
+                    <div class="recipe-card">
+                      <a href="#" class="recipe-title">
+                        <div class="recipe-img">
+                          <img src="images/barquette.png" alt="Boats">
+                        </div>
+                        <div class="recipe-content">Boats</div>
+                      </a>
+                    </div>
+                </div>
+                  
+              
+          <div class="view-more">
+              <button class="btn-brun">View More Recipes</button>
+          </div>
+      </div>
+  </section>
+  <!-- explore section end -->
+   <!-- contact section start -->
+    <section id="contact">
+      <div class="contact-section">
+        <h3 class="touch">Let's Stay In Touch!</h3>
+        <p class="join">Join our newsletter, so that we reach out to you with our news and offers</p>
+        <form action="">
+          <input type="email" placeholder="Enter Your Email ">
+          <button class="btn-brun" id="subscribe-btn">Subscribe</button>
+        </form>
+
+      </div>
+    </section>
+
+
+  <!-- contact section end -->
+
+  <!-- About section start -->
+  <!-- About Section -->
+<section id="about">
+  <div class="about-section">
+    <div class="about-image">
+      <img src="images/chef_cook.png" alt="Chef cooking">
+    </div>
+    <div class="about-content">
+      <h2>About Recipes</h2>
+      <p>Founded in 2025, Recipes is a community platform where food lovers share their culinary creations. We believe everyone has a unique kitchen story to tell.</p>
+      <div class="about-stats">
+        <div class="stat">
+          <span class="number">10,000+</span>
+          <span class="label">Recipes Shared</span>
+        </div>
+        <div class="stat">
+          <span class="number">50,000+</span>
+          <span class="label">Food Lovers</span>
+        </div>
+      </div>
+      <button class="btn-brun" id="story">Our Story</button>
+    </div>
+  </div>
+</section>
+
+
+  <!-- About section end -->
+  <!-- footer section start  -->
+   <section id="footer">
+      <div class="footer-section">
+        <div class="footer-content">
+            <div class="footer-logo">
+            <img src="images/chef.png" alt="Recipes Logo"><h3>Recipes</h3>
+              <br/>
+            </div>
+            <p class="footer-tagline">Your Kitchen, Your Rules – Share the Flavors You Love! 👩‍🍳</p>
+        </div>
+          <div class="links">
+            <h4>Quick Links</h4>
+            <a href="#home">Home</a>
+            <a href="#add-recipe">Add Recipe</a>
+            <a href="#explore-recipes">Recipe</a>
+            <a href="#">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="newsletter">
+            <h4>Newsletter</h4>
+            <form action="">
+                <label for="">Subscribe to our newsletter</label>
+                <br/>
+                <input type="email" placeholder="Enter Your Email">
+                <br/>
+              </form>
+              <button class="btn-brun" id="subscribe-btn">Subscribe</button>
+          </div>
+          <p class="copyrights">© 2025 Recipes. All rights reserved.</p>
+      </div>
+    
+   </section>
+
+
+    
+    
+</body>
+</html>
